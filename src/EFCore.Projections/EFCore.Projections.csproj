@@ -8,6 +8,18 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>signkey.snk</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>D-ASYNC LLC (c) 2018</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/Dasync/EntityFrameworkCore.Extensions.Projections/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Dasync/EntityFrameworkCore.Extensions.Projections</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Dasync/EntityFrameworkCore.Extensions.Projections</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>EF Core EFCore Projection View EntityFramework EntityFrameworkCore entity-framework-core Extension</PackageTags>
+    <Company>D-ASYNC LLC</Company>
+    <Authors>Dasync sergiis</Authors>
+    <Product>Entity Projections for EntityFramework Core</Product>
+    <Title>Entity Projections for EntityFramework Core</Title>
+    <Description>Decouples the read model from entities themselves. The read model is automatically generated at runtime from given projection/view interfaces. Essentially works like views for tables in RDBMS. See the project page for examples.</Description>
   </PropertyGroup>
 
   <ItemGroup>
