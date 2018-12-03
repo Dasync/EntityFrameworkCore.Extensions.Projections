@@ -5,6 +5,9 @@
     <AssemblyName>Dasync.EntityFrameworkCore.Extensions.Projections</AssemblyName>
     <RootNamespace>Dasync.EntityFrameworkCore.Extensions.Projections</RootNamespace>
     <LangVersion>latest</LangVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>signkey.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
 
   <ItemGroup>
