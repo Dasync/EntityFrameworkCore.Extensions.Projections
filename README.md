@@ -1,5 +1,7 @@
 > _A small weekend project with a higher future purpose_
 
+![Domain Entity Projections](FeaturedImage.png)
+
 This extension to the EntityFramework Core allows to decouple the read model from entities themselves. If you practice Domain-Driven Design, then you want to separate Domain Entity/Aggregate repositories from their querying mechanism. Query results must return Entity Projections/Views instead of Entities themselves (as they contain behavior), but building projection types by hand is tedious.
 
 The full description is published in the [Domain Entity Projections in EFCore](https://medium.com/@sergiis/domain-entity-projections-in-efcore-2dbd6a9116ff) post. 
